@@ -1,7 +1,24 @@
 html {
   box-sizing: border-box;
+  font-family: ff-tisa-web-pro, serif;
+  background-color: #F2E0C9;
+  line-height: 1.5;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1,
+h2,
+h3 {
+  font-family: iskra, sans-serif;
+}
+
+div li {
+  list-style-type: none;
 }
