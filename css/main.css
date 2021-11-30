@@ -22,3 +22,7 @@ h3 {
 div li {
   list-style-type: none;
 }
+
+.socials {
+  width: 2rem;
+}
