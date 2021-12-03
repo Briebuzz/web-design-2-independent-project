@@ -23,14 +23,36 @@ div li {
   list-style-type: none;
 }
 
+nav ul li {
+  list-style-type: none;
+  align-items: center;
+  grid-column: 2/-1;
+  grid-row: 1;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column: 2 / -1;
+}
+
 .socials {
   width: 2rem;
 }
 
 img {
-  width: 10rem;
+  width: 15rem;
 }
 
 .banner {
   width: 100%;
+}
+
+.row {
+  display: grid;
+  grid-template-column: 1fr 2fr;
+  grid-gap: 1rem;
+  grid-template-areas:
+    "row row"
+    "div div";
 }
